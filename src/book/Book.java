@@ -25,11 +25,11 @@ public class Book {
 	public String sayHelloXML(@PathParam("name") String nam)
 	{
 		
-		String response="<?xml version='1.0'?>"+
+		String response2="<?xml version='1.0'?>"+
 		"<MyProduct>  <Product id='1'> "
 		+ " <Description>Laptop "+nam+"</Description> "
 		+ " <Price>870</Price> </Product> </MyProduct>";
-		return response;
+		return response2;
 	}	
 	
 		
